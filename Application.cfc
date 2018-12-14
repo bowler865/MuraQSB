@@ -24,7 +24,6 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 <cfcomponent extends="fw1">
 
 	<cfinclude template="../../core/appcfc/applicationSettings.cfm" />
-	<cfinclude template="../mappings.cfm" />
 	<cfset variables.framework = getFramework() />
 
 	<!--- ********************** fw/1-specific *************************** --->
